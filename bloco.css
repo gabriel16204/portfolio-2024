@@ -1,0 +1,20 @@
+.flexível{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bloco{
+    background-color: rgb(20, 73, 208);
+    flex: 1 1 300px;
+    margin: 5px;
+    padding: 5px;
+    min-width: 200px;
+    border-radius: 5pt;
+    transition: 1s;
+}
+
+h3, p { text-emphasis: center;}
+.bloco:hover{
+    flex: 1 1 500px;
+    background-color: rgb(26, 128, 128);
+    transition: 1s;
+}
